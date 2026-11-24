@@ -1,0 +1,8 @@
+project: savantenvs/angle
+target: fuzz_load_etc
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_load_etc/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_load_etc
+    libfuzzer: true

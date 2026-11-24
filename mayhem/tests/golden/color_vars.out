@@ -1,0 +1,15 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 VARIABLES ####
+uniform 0 : name=u_color, mappedName=_uu_color, type=GL_FLOAT_VEC4, arraySizes=
+
+input varying 0 : name=v_uv, mappedName=_uv_uv, type=GL_FLOAT_VEC2, arraySizes=
+
+output 0 : name=fragColor, mappedName=_ufragColor, type=GL_FLOAT_VEC4, arraySizes=
+
+#### END COMPILER 0 VARIABLES ####
+
+

@@ -1,0 +1,21 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 OBJ CODE ####
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+out vec4 _uo;
+void main(){
+  vec3 sbbb = vec3(0.5, 1.0, 0.0);
+  for (int sbbc = 0; (sbbc < 3); (++sbbc))
+  {
+    (sbbb.z += float(sbbc));
+  }
+  (_uo = vec4(sbbb, 1.0));
+}
+
+#### END COMPILER 0 OBJ CODE ####
+
+

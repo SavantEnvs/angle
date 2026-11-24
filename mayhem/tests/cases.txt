@@ -1,0 +1,10 @@
+# name|translator flags|shader (in mayhem/tests/shaders)|expected exit code
+color_essl|-o -s=e3 -b=e|color.frag|0
+color_glsl330|-o -s=e3 -b=g330|color.frag|0
+color_hlsl|-o -s=e3 -b=h11|color.frag|0
+color_vars|-u -s=e3|color.frag|0
+mvp_essl|-o -s=w -b=e|mvp.vert|0
+mvp_vars|-u -s=w|mvp.vert|0
+macros_glsl|-o -s=e3 -b=g|macros.frag|0
+macros_spirv|-o -s=e3 -b=v|macros.frag|0
+type_error|-o -s=e3|type_error.frag|2

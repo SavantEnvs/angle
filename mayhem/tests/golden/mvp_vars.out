@@ -1,0 +1,16 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 VARIABLES ####
+uniform 0 : name=u_mvp, mappedName=_uu_mvp, type=GL_FLOAT_MAT4, arraySizes=
+
+output varying 0 : name=v_uv, mappedName=_uv_uv, type=GL_FLOAT_VEC2, arraySizes=
+output varying 1 : name=gl_Position, mappedName=gl_Position, type=GL_FLOAT_VEC4, arraySizes=
+
+attribute 0 : name=a_position, mappedName=_ua_position, type=GL_FLOAT_VEC4, arraySizes=
+
+#### END COMPILER 0 VARIABLES ####
+
+

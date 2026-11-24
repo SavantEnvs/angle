@@ -1,0 +1,19 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 OBJ CODE ####
+uniform highp mat4 _uu_mvp;
+attribute highp vec4 _ua_position;
+varying highp vec2 _uv_uv;
+void main(){
+  const highp float sbbd = 0.5;
+  const highp float sbbe = 0.5;
+  (_uv_uv = ((_ua_position.xy * sbbd) + sbbe));
+  (gl_Position = (_uu_mvp * _ua_position));
+}
+
+#### END COMPILER 0 OBJ CODE ####
+
+

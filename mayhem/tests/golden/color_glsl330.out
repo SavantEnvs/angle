@@ -1,0 +1,18 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 OBJ CODE ####
+#version 330
+uniform vec4 _uu_color;
+in vec2 _uv_uv;
+out vec4 _ufragColor;
+void main(){
+  float sbbd = length((_uv_uv - vec2(0.5, 0.5)));
+  (_ufragColor = (_uu_color * smoothstep(0.5, 0.400000006, sbbd)));
+}
+
+#### END COMPILER 0 OBJ CODE ####
+
+

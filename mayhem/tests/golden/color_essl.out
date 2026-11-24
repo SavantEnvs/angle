@@ -1,0 +1,19 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+
+#### END COMPILER 0 INFO LOG ####
+
+
+#### BEGIN COMPILER 0 OBJ CODE ####
+#version 300 es
+uniform mediump vec4 _uu_color;
+in mediump vec2 _uv_uv;
+out mediump vec4 _ufragColor;
+void main(){
+  const mediump vec2 sbbe = vec2(0.5, 0.5);
+  mediump float sbbd = length((_uv_uv - sbbe));
+  (_ufragColor = (_uu_color * smoothstep(0.5, 0.400000006, sbbd)));
+}
+
+#### END COMPILER 0 OBJ CODE ####
+
+

@@ -1,0 +1,8 @@
+#### BEGIN COMPILER 0 INFO LOG ####
+ERROR: 0:4: '=' : dimension mismatch
+ERROR: 0:4: 'assign' : cannot convert from 'const 3-component vector of float' to 'out mediump 4-component vector of float'
+ERROR: 0:4: 'undefinedFn' : no matching overloaded function found
+
+#### END COMPILER 0 INFO LOG ####
+
+
